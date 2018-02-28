@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+    <testcase name="QCR-4975">
+        <desc>查询商户信息</desc>
+        <input>
+            <mchtId>EEsFDn4115519473136435205</mchtId>
+            <type>0</type>
+        </input>
+        <checks>
+            <check>
+                <key>code</key>
+                <comparator>equalTo</comparator>
+                <except>0000</except>
+            </check>
+            <check>
+                <key>content.mchtSimpleName</key>
+                <comparator>equalTo</comparator>
+                <except>重庆</except>
+            </check>
+        </checks>
+    </testcase>
+    <testcase name="QCR-4976">
+        <input>
+            <desc>查询商户审批信息</desc>
+            <mchtId>EEsFDn4115519473136435205</mchtId>
+            <type>1</type>
+        </input>
+    </testcase>
+</testcases>

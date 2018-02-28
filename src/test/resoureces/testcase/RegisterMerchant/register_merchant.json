@@ -1,0 +1,71 @@
+{
+  "mchtType": "04",
+  "firCateCode": "30000",
+  "secCateCode": "31100",
+  "thdCateCode": "31108",
+  "addressCode": "110101",
+  "mchtName": "接口进件商户20180208182307",
+  "mchtSimpleName": "进商",
+  "mchtContAddr": "重庆市北部新区星光五路3号",
+  "mchtEmail": "10@263.com",
+  "mchtPersonName": "小丹尼",
+  "mchtPhone": "18900000023",
+  "mchtLicnType": "01",
+  "mchtLicnNo": "92110101000000008P",
+  "serviceList": [
+    {
+      "serviceID": 1,
+      "rate": 2.6
+    },
+    {
+      "serviceID": 2,
+      "rate": 2.7
+    },
+    {
+      "serviceID": 3,
+      "rate": 2.8
+    }
+  ],
+  "setlType": "01",
+  "setlAcctType": "2",
+  "accountBoss": "2",
+  "setlAcctName": "金贝贝",
+  "setlAcctNo": "20-123456789012345",
+  "setlBankCode": "102",
+  "setlSubBranchCode": "102121000447",
+  "setlBankPhone": "18692827190",
+  "mchtPicUrlList": [
+    {
+      "mchtPicType": "01",
+      "mchtPicUrl": "5cdfaff9885c4629b18873e9a745d19f"
+    },
+    {
+      "mchtPicType": "02",
+      "mchtPicUrl": "5cdfaff9885c4629b18873e9a745d19f"
+    },
+    {
+      "mchtPicType": "07",
+      "mchtPicUrl": "5cdfaff9885c4629b18873e9a745d19f"
+    },
+    {
+      "mchtPicType": "08",
+      "mchtPicUrl": "5cdfaff9885c4629b18873e9a745d19f"
+    },
+    {
+      "mchtPicType": "09",
+      "mchtPicUrl": "5cdfaff9885c4629b18873e9a745d19f"
+    },
+    {
+      "mchtPicType": "18",
+      "mchtPicUrl": "5cdfaff9885c4629b18873e9a745d19f"
+    },
+    {
+      "mchtPicType": "19",
+      "mchtPicUrl": "5cdfaff9885c4629b18873e9a745d19f"
+    },
+    {
+      "mchtPicType": "23",
+      "mchtPicUrl": "5cdfaff9885c4629b18873e9a745d19f"
+    }
+  ]
+}

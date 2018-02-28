@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itsgoodtobebad.qrcode.mapper.MerBaseMapper">
+    <resultMap id="BaseResultMap" type="com.itsgoodtobebad.qrcode.dto.MerBase">
+        <id column="id" jdbcType="VARCHAR" property="id"/>
+        <result column="subscriptio" jdbcType="VARCHAR" property="subscriptio" />
+        <result column="openid" jdbcType="VARCHAR" property="openid" />
+        <result column="authdirectory" jdbcType="VARCHAR" property="authdirectory" />
+        <result column="mchtid" jdbcType="VARCHAR" property="mchtid"/>
+        <result column="agentid" jdbcType="VARCHAR" property="agentid"/>
+        <result column="mchtmngno" jdbcType="VARCHAR" property="mchtmngno"/>
+        <result column="qrtokencode" jdbcType="VARCHAR" property="qrtokencode"/>
+        <result column="mchttype" jdbcType="VARCHAR" property="mchttype"/>
+        <result column="fircatecode" jdbcType="VARCHAR" property="fircatecode"/>
+        <result column="seccatecode" jdbcType="VARCHAR" property="seccatecode"/>
+        <result column="thdcatecode" jdbcType="VARCHAR" property="thdcatecode"/>
+        <result column="mchtname" jdbcType="VARCHAR" property="mchtname"/>
+        <result column="mchtsimplename" jdbcType="VARCHAR" property="mchtsimplename"/>
+        <result column="mchtcontaddr" jdbcType="VARCHAR" property="mchtcontaddr"/>
+        <result column="mchtemail" jdbcType="VARCHAR" property="mchtemail"/>
+        <result column="telephone" jdbcType="VARCHAR" property="telephone"/>
+        <result column="addresscode" jdbcType="VARCHAR" property="addresscode"/>
+        <result column="mchtpersonname" jdbcType="VARCHAR" property="mchtpersonname"/>
+        <result column="mchtphone" jdbcType="VARCHAR" property="mchtphone"/>
+        <result column="mchtartifid" jdbcType="VARCHAR" property="mchtartifid"/>
+        <result column="artifsdate" jdbcType="VARCHAR" property="artifsdate"/>
+        <result column="artifedate" jdbcType="VARCHAR" property="artifedate"/>
+        <result column="mchtartifname" jdbcType="VARCHAR" property="mchtartifname"/>
+        <result column="mchtartifsex" jdbcType="VARCHAR" property="mchtartifsex"/>
+        <result column="mchtartifcountryid" jdbcType="VARCHAR" property="mchtartifcountryid"/>
+        <result column="mchtartifjob" jdbcType="VARCHAR" property="mchtartifjob"/>
+        <result column="mchtaritfaddress" jdbcType="VARCHAR" property="mchtaritfaddress"/>
+        <result column="mchtlicntype" jdbcType="VARCHAR" property="mchtlicntype"/>
+        <result column="mchtlicnno" jdbcType="VARCHAR" property="mchtlicnno"/>
+        <result column="mchtLicnsdate" jdbcType="VARCHAR" property="mchtlicnsdate"/>
+        <result column="mchtLicnedate" jdbcType="VARCHAR" property="mchtlicnedate"/>
+        <result column="occno" jdbcType="VARCHAR" property="occno"/>
+        <result column="occsdate" jdbcType="VARCHAR" property="occsdate"/>
+        <result column="occedate" jdbcType="VARCHAR" property="occedate"/>
+        <result column="trcno" jdbcType="VARCHAR" property="trcno"/>
+        <result column="trcsdate" jdbcType="VARCHAR" property="trcsdate"/>
+        <result column="trcedate" jdbcType="VARCHAR" property="trcedate"/>
+        <result column="setltype" jdbcType="VARCHAR" property="setltype"/>
+        <result column="setlsymbol" jdbcType="VARCHAR" property="setlsymbol"/>
+        <result column="creditlimit" jdbcType="VARCHAR" property="creditlimit"/>
+        <result column="specsetlday" jdbcType="VARCHAR" property="specsetlday"/>
+        <result column="prodandratelist" jdbcType="VARCHAR" property="prodandratelist"/>
+        <result column="servicelist" jdbcType="VARCHAR" property="servicelist"/>
+        <result column="setlaccttype" jdbcType="VARCHAR" property="setlaccttype"/>
+        <result column="accountboss" jdbcType="VARCHAR" property="accountboss"/>
+        <result column="setlacctidtype" jdbcType="VARCHAR" property="setlacctidtype" />
+        <result column="setlacctidno" jdbcType="VARCHAR" property="setlacctidno" />
+        <result column="setlacctname" jdbcType="VARCHAR" property="setlacctname"/>
+        <result column="setlacctno" jdbcType="VARCHAR" property="setlacctno"/>
+        <result column="setlacctbankno" jdbcType="VARCHAR" property="setlacctbankno"/>
+        <result column="setlacctbranchno" jdbcType="VARCHAR" property="setlacctbranchno"/>
+        <result column="setlbankphone" jdbcType="VARCHAR" property="setlbankphone"/>
+        <result column="status" jdbcType="VARCHAR" property="status"/>
+        <result column="approvestatus" jdbcType="INTEGER" property="approvestatus"/>
+        <result column="auditdesc" jdbcType="VARCHAR" property="auditdesc"/>
+        <result column="faildesc" jdbcType="VARCHAR" property="faildesc"/>
+        <result column="employeeid" jdbcType="VARCHAR" property="employeeid"/>
+        <result column="approvalid" jdbcType="INTEGER" property="approvalid"/>
+        <result column="accessdate" jdbcType="TIMESTAMP" property="accessdate"/>
+        <result column="createtime" jdbcType="TIMESTAMP" property="createtime"/>
+        <result column="updatetime" jdbcType="TIMESTAMP" property="updatetime"/>
+        <result column="financialcontact" jdbcType="VARCHAR" property="financialcontact"/>
+        <result column="financialtel" jdbcType="VARCHAR" property="financialtel"/>
+        <result column="intro" jdbcType="VARCHAR" property="intro"/>
+        <result column="mchtcertid" jdbcType="VARCHAR" property="mchtcertid"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, subscriptio, openid, authdirectory, mchtid, agentid, mchtmngno, qrtokencode, mchttype, fircatecode, seccatecode, thdcatecode, mchtname,
+        mchtsimplename, mchtcontaddr, mchtemail, telephone, addresscode, mchtpersonname, creditlimit,
+        mchtphone, mchtartifid, artifsdate, artifedate, mchtartifname, mchtartifsex, mchtartifcountryid,
+        mchtartifjob, mchtaritfaddress, mchtlicntype, mchtlicnno, financialcontact, financialtel, intro,
+        mchtLicnsdate, mchtLicnedate, occno, occsdate, occedate, trcno, trcsdate, trcedate, setlsymbol,
+        setltype, specsetlday, prodandratelist, servicelist, setlaccttype, accountboss, setlacctidtype, setlacctidno, setlacctname,
+        setlacctno, setlacctbankno, setlacctbranchno, setlbankphone, status, approvestatus,
+        auditdesc, faildesc, employeeid, approvalid, accessdate, mchtcertid, createtime, updatetime
+    </sql>
+
+    <select id="queryMerchantByMchtPhone" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from mer_base
+        where mchtphone = #{mchtphone,jdbcType=VARCHAR}
+    </select>
+
+    <delete id="deleteMerchantFromMerBaseByMchtPhone" parameterType="java.lang.String" >
+        delete
+        from mer_base
+        where mchtphone = #{mchtphone,jdbcType=VARCHAR}
+    </delete>
+
+    <delete id="deleteMerchantFromMerBaseApprovalByMchtPhone" parameterType="java.lang.String" >
+        delete
+        from mer_base_approval
+        where mchtphone = #{mchtphone,jdbcType=VARCHAR}
+    </delete>
+
+</mapper>

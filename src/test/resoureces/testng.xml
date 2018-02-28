@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="qrcode_external_api_autotest">
+    <test name="regiester_merchant">
+        <classes>
+            <class name="com.itsgoodtobebad.qrcode.testcase.GetMerchantDetailTest">
+                <methods>
+                    <include name="GetMerchantDetailTest_Basic" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
