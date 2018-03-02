@@ -21,6 +21,8 @@
         <mybatis.version>3.4.1</mybatis.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
         <mysql.version>5.1.41</mysql.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
