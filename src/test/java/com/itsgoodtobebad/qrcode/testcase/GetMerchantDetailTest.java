@@ -85,7 +85,7 @@ public class GetMerchantDetailTest extends BasicTest{
                         .then()
                         .log().all()
                         .statusCode(200)
-                        .body("code", equalTo("0000"));
+                        .body("code", equalTo("0001"));
 
     }
 
@@ -139,5 +139,12 @@ public class GetMerchantDetailTest extends BasicTest{
             e.printStackTrace();
         }
 
+    }
+
+    @Test
+    public void test2(){
+        List<String> toList = Arrays.asList("lilx@ect888.com".split(","));
+
+        System.out.println(toList);
     }
 }
