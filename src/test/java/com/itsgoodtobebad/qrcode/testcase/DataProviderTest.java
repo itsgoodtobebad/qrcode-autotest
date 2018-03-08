@@ -57,7 +57,7 @@ public class DataProviderTest extends BasicTest{
                         .then()
                         .log().all()
                         .statusCode(200)
-                        .body("code", equalTo("0000"));
+                        .body("code", equalTo("0001"));
 
     }
 }
