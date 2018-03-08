@@ -2,7 +2,7 @@
 <suite name="qrcode_external_api_autotest">
     <test name="regiester_merchant">
         <classes>
-            <class name="com.itsgoodtobebad.qrcode.testcase.GetMerchantDetailTest">
+            <class name="com.itsgoodtobebad.qrcode.testcase.DataProviderTest">
                 <methods>
                     <include name="GetMerchantDetailTest_Basic" />
                 </methods>

@@ -7,18 +7,10 @@
             <mchtId>EEsFDn4115519473136435205</mchtId>
             <type>0</type>
         </input>
-        <checks>
-            <check>
-                <key>code</key>
-                <comparator>equalTo</comparator>
-                <except>0000</except>
-            </check>
-            <check>
-                <key>content.mchtSimpleName</key>
-                <comparator>equalTo</comparator>
-                <except>重庆</except>
-            </check>
-        </checks>
+        <check>
+            <code>0000</code>
+            <content.mchtSimpleName>代理商简称</content.mchtSimpleName>
+        </check>
     </testcase>
     <testcase name="QCR-4976">
         <input>
@@ -26,5 +18,9 @@
             <mchtId>EEsFDn4115519473136435205</mchtId>
             <type>1</type>
         </input>
+        <check>
+            <code>0000</code>
+            <content.mchtSimpleName>代理商简称</content.mchtSimpleName>
+        </check>
     </testcase>
 </testcases>
